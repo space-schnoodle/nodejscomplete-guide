@@ -1,26 +1,23 @@
 {
-  "name": "nodejscomplete-guide",
+  "name": "nodejs-complete-guide",
   "version": "1.0.0",
-  "description": "Project following the course: https://www.udemy.com/course/nodejs-the-complete-guide/",
+  "description": "Complete Node.js Guide",
   "main": "app.js",
   "scripts": {
-    "start": "nodemon app.js"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js",
+    "start-server": "node app.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/space-schnoodle/nodejscomplete-guide.git"
-  },
-  "keywords": [],
-  "author": "",
+  "author": "Maximilian Schwarzmüller",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/space-schnoodle/nodejscomplete-guide/issues"
-  },
-  "homepage": "https://github.com/space-schnoodle/nodejscomplete-guide#readme",
   "devDependencies": {
-    "nodemon": "^2.0.20"
+    "nodemon": "^1.18.3"
   },
   "dependencies": {
-    "express": "^4.18.2"
+    "body-parser": "^1.18.3",
+    "ejs": "^2.6.1",
+    "express": "^4.16.3",
+    "express-handlebars": "^3.0.0",
+    "pug": "^2.0.3"
   }
 }
